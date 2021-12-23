@@ -42,7 +42,7 @@ const Employe = () => {
                 </div>
                 <div>
                     <label user="rating" >Rating : </label>
-                    <input  type="text" name="rating" id="rating" className="inputfield" value={userDetails.rating} onChange={handleInput}/>
+                    <input  type="number" name="rating" id="rating" className="inputfield" value={userDetails.rating} onChange={handleInput}/>
                 </div>
                 <button type="submit" className="submit-btn">Click Here To Submit</button><br/><br/>
             </form>
